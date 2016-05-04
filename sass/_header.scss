@@ -1,0 +1,56 @@
+#page-header {
+  background-color: #5B6275;
+  color: #fff;
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+.avatar {
+  display: block;
+  margin: 0 auto;
+  max-width: 256px;
+}
+
+#page-title {
+  h1, h3 {
+    font-family: 'Fira Code';
+  }
+  h3 {
+    margin: 0 0 15px;
+  }
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
+  @media screen and (min-width: 768px) {
+    position: absolute;
+  }
+}
+
+#social-icons {
+  display: block;
+
+  .icon {
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    height: 36px;
+    margin-right: 8px;
+    padding: 10px 0;
+    text-align: center;
+    transition: all .3s;
+    width: 36px;
+
+    &:hover {
+      background-color: #34495e;
+      i {
+        color: #fff;
+      }
+    }
+  }
+
+  i {
+    color: #5B6275;
+    display: block;
+    font-size: .6em;
+  }
+}

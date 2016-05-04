@@ -1,0 +1,31 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "author": "lubien <lubien1996@gmail.com>",
+  "scripts": {
+    "build": "gh-pages --dist public --branch master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://lubien@bitbucket.org/lubien/portfolio.git"
+  },
+  "bugs": "https://bitbucket.org/lubien/portfolio/issues",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "gh-pages": "^0.11.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-connect": "^2.3.1",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.1",
+    "gulp-uglify": "^1.5.2",
+    "imagemin-pngquant": "^4.2.1",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0"
+  }
+}

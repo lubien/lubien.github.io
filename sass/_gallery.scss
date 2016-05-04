@@ -1,0 +1,45 @@
+#gallery {
+  .cols {
+    column-count: 3;
+    column-gap: 3%;
+    column-width: 30%;
+
+    @media screen and (max-width: 767px) {
+      column-count: 1;
+      column-gap: 2%;
+      column-width: 98%;
+    }
+
+
+    @media screen and (min-width: 768px) and (max-width: 1279px) {
+      column-count: 2;
+      column-gap: 4%;
+      column-width: 46%;
+    }
+
+    .col {
+      column-break-inside:avoid;
+      page-break-inside: avoid;
+      break-inside: avoid-column;
+
+      h4 {
+        color: #5B6275;
+        display: inline-block;
+        font-weight: bold;
+        margin: 0 0 25px;
+        transition: color .3s;
+
+        &:hover {
+          color: lighten(#5B6275, 35%);
+        }
+      }
+    }
+
+    img {
+      border: 2px solid #dedede;
+      height: auto;
+      margin-bottom: 25px;
+      width: 100%;
+    }
+  }
+}
